@@ -43,6 +43,15 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="modul\Battle.cs" />
+    <Compile Include="modul\box.cs" />
+    <Compile Include="modul\Defends.cs" />
+    <Compile Include="modul\Enimies.cs" />
+    <Compile Include="modul\Heroes.cs" />
+    <Compile Include="modul\items.cs" />
+    <Compile Include="modul\Menu.cs" />
+    <Compile Include="modul\Program.cs" />
+    <Compile Include="modul\Random.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
@@ -50,7 +59,7 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="Model\" />
+    <Folder Include="ConsoleApp2\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

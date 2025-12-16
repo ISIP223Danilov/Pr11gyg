@@ -1,0 +1,30 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Security.Cryptography.X509Certificates;
+using System.Text;
+using System.Threading.Tasks;
+using ConsoleApp2.modul;
+
+namespace ConsoleApp2.modul
+{
+    internal class Defends
+    {
+        public class Def
+        {
+            public string NameD;
+            public int Block;
+
+            public Def(string name_d, int block)
+
+            {
+                NameD = name_d;
+                Block = block;
+
+            }
+        }
+        static public Def shield = new Def("Щит", 60);
+        static public Def leather_armor = new Def("Пенис Оленя", 20);
+        static public Def iron_armor = new Def("Кальчуга", 40);
+    }
+}
